@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: 5piritua1M0nk/digiyatra-ci-cd-tutorial@master
+    - uses: jakejarvis/s3-sync-action@master
       with:
         args: --follow-symlinks --delete
       env:
